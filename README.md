@@ -1,6 +1,6 @@
 # Hack用のdockerfile
 
-適当にdockerfileとsrcディレクトリを作ったら、
+適当に`Dockerfile`と`src`ディレクトリを作ったら、
 
 ```sh
 docker build -t chara/hhvm .
