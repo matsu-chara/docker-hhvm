@@ -1,7 +1,7 @@
 <?hh
 
-function f(): string {
+function g(): string {
   return 'not an int';
 }
 
-echo f() . "\n";
+echo g() . "\n";
