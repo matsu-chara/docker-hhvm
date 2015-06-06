@@ -8,7 +8,7 @@ docker attach hhvm
 
 でできる。
 
-ログイン後は`src/`に`.hh`というファイルを作成すればOK
+ログイン後は`src/`に`hoge.hh`というファイルを作成して`hhvm hoge.hh`で実行できる。
 
 詳しいメモ
 https://gist.github.com/matsu-chara/d7fef1e15306932c6d56
