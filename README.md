@@ -10,7 +10,8 @@ docker attach hhvm
 
 でできます。
 
-ログイン後は`src/`に`hoge.hh`というファイルを作成して`hhvm hoge.hh`で実行できます。
+ログイン後は、ローカルで`src/`に`hoge.hh`というファイルを作成して、コンテナ内で`hhvm hoge.hh`で実行できます。
+（もちろんコンテナでファイルを書いても大丈夫です。）
 
 詳しいメモ
 https://gist.github.com/matsu-chara/d7fef1e15306932c6d56
